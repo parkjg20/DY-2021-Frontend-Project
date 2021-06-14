@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+  }
+  .theme-color{
+    color: #b8352c;
+  }
+
+  .bg-theme{
+    background-color: #b8352c;
+  }
+  body {
+    font-family: Arial;
+    padding: 10px;
+    background: #FFFFFF;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+  }
+  
+  .header h1 {
+    font-size: 50px;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #b8352c;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    opacity: 0.8;
+    transition-duration: 0.2s;
+    -webkit-transform:scale(1.05);
+    -moz-transform:scale(1.05);
+    -ms-transform:scale(1.05);   
+    -o-transform:scale(1.05);
+    transform:scale(1.05);
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    height: 340px;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+.card.main-content > div h4{
+  display: inline-block;
+
+}
+
+.main-content .divider{
+  display: inline;
+  margin-top: 1.67em;
+  margin-bottom: 1.67em;
+
+  height: 12px;
+  margin: 10px;
+  border-right: 1px solid #b8352c;
+}
+
+.main-content .content {
+  padding: 20px 15px;
+}
+
+.main-content .more {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.main-content .more:hover{
+  background: linear-gradient(white, #e5e5e5);
+
+}
+
+
+.people {
+  background: url("http://recipe1.ezmember.co.kr/img/mobile/icon_man.png") left no-repeat;
+}
+
+.time {
+  background: url('http://recipe1.ezmember.co.kr/img/mobile/icon_time2.png') left no-repeat;
+}
+
+.people,
+.time {
+  padding-left: 40px;
+  background-size: 36px;
+}
+.difficulty.low{
+  color: #827474;
+}
+
+.difficulty.middle{
+  color: #cc6969;
+}
+
+.difficulty.high{
+  color: #c50000;
+}
+
+.grocery ul{
+  list-style: none;
+  display: inline-block;
+  margin-right: 24px;
+  padding-right: 40px;
+}
+
+.grocery ul:last-child{
+  margin-right: 0px;
+}
+
+.grocery ul li.title{
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+.grocery ul li {
+  margin-bottom: 6px;
+}
+
+.grocery h2{
+  margin-top: 50px;
+}
+
+.grocery caption{
+  display: none;
+}
+
+.grocery h2{
+  margin-left: 20px
+}
+
+.grocery-content {
+  display: flex;
+  align-items: flex-start;
+
+}

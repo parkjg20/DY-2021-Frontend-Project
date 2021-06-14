@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        
+        <div class="header">
+            <h1 class="theme-color">한식 레시피</h1>
+            <p>한식 레시피 소개 사이트</p>
+        </div>
+        
+        <div class="topnav">
+            <a href="#">국물요리</a>
+            <a href="#">볶음요리</a>
+            <a href="#">밑반찬</a>
+            <a href="#">전통음료</a>
+            <a href="https://github.com/parkjg20" style="float: right">제작자 Github</a>
+        </div>
+        
+        <div class="row">
+            <div class="leftcolumn">
+                <template v-for="(menu, index) in menus">
+                    <template v-if="index != 0">
+                        <hr />
+                    </template>
+                    <main-content  v-bind:menu="menu"></main-content>
+                </template>
+            </div>
+            <div class="rightcolumn">
+            <div class="card">
+                <h2>About Me</h2>
+                <div class="fakeimg" style="height:100px;">Image</div>
+                <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+            </div>
+            <div class="card">
+                <h3>Popular Post</h3>
+                <div class="fakeimg"><p>Image</p></div>
+                <div class="fakeimg"><p>Image</p></div>
+                <div class="fakeimg"><p>Image</p></div>
+            </div>
+            <div class="card">
+                <h3>Follow Me</h3>
+                <p>Some text..</p>
+            </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <h2>Footer</h2>
+        </div>
+  
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
