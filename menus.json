@@ -1,0 +1,252 @@
+{
+    "data": [
+        {
+            "title": "제육볶음",
+            "info": { 
+                "people": 4,
+                "time": 30,
+                "difficulty": 0
+            },
+            "grocery": [
+                ["메인 식재료", "돼지고기 600g", "양파 1개", "청양고추 2개", "대파 1뿌리"]
+                , ["양념장", "설탕 2스푼", "고추장 2스푼", "간장 2스푼", "고춧가루 2스푼", "다진마늘", "올리고당"]
+            ],
+            "category": "F",
+            "img": "https://recipe1.ezmember.co.kr/cache/recipe/2016/01/03/238971bcaa092eee19a2845e3074b2481.jpg",
+            "introduce": "백종원의 제육볶음 레시피로 간단하게 밥반찬 또는 야식, 술안주 뚝딱 만들어봤습니다^^",
+            "steps":[
+                {
+                    "text": "재료는 먹기 좋은 크기로 썰어서 준비해주세요",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2016/01/03/d1282ff159a0d3771a001a8180ab49061.jpg"
+                },
+                {
+                    "text": "고추장 2스푼, 간장 2스푼. 고춧가루 2스푼, 다진마늘 1스푼, 굴소스 1스푼, 올리고당 1스푼 넣어서<br>양념장을 이렇게 만들어주세요",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2016/01/03/950f22fb6ba694feeaca97ff9a75eacc1.jpg"
+                },
+                {
+                    "text": "고기가 익어갈때 설탕을 넣고 더 구워주는게 백종원 제육볶음의 포인트^^<br>동물성 단백질로 구성된 식재료는 설탕부터 사용해야 단맛을 제대로 낼수 있다고해요<br>소금부터 넣거나 다른 것부터 간을 해버리면 설탕입자는 들어가지 않아서 고기에 단맛이 안베니까 꼭 설탕부터^^<br>2스푼 넣었습니다!!!<br>기호에 따라 가감하시길",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2016/01/03/11179f6400e55626f1f2f16e58cca3df1.jpg"
+                },
+                {
+                    "text": "손질해둔 야채와 양념장을 넣고 볶아주세요",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2016/01/03/12d3c8c6adff6d47d0ce2c1f30efa3061.jpg"
+                },
+                {
+                    "text": "모든 재료가 다 익으면 제육볶음 끝^^",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2016/01/03/42ff9061bbde50633506677b2d8dc77f1.jpg"
+                }
+            ],
+            "tip": "설탕과 올리고당을 다 사용하기때문에 단맛이 강할수 있습니다 단걸 싫어하신다면 설탕을 줄이시거나 올리고당을 양념장에서 빼시길 바래요"
+        },
+        {
+            "title": "낙지볶음",
+            "info": { 
+                "people": 2,
+                "time": 60,
+                "difficulty": 0
+            },
+            "grocery": [
+                ["메인 식재료", "낙지 1마리", "양파 1/2개", "당근 1/6개", "양배추 1/4조각", "대파 1대", "식용유 1T", "참기름 3방울", "통깨 1T"]
+                , ["양념장", "간장 3T", "설탕 1T", "맛술 1T", "고춧가루 2T", "다진마늘 1T"]
+            ],
+            "category": "F",
+            "img": "https://recipe1.ezmember.co.kr/cache/recipe/2018/02/03/040edee73edeff2d0b44da4dce31c10d1.jpg",
+            "introduce": "쓰러진 소도 벌떡 일으킨다는 낙지를 이용해 맛있는 낙지볶음을 만들어봐요.<br>양념장은 백종원 레시피로 맛있게 만들어봤답니다.<br>음식물은 스마트카라에 처리해 간편하게 요리했어요.",
+            "steps":[
+                {
+                    "text": "먼저 낙지를 손질해줘야해요.<br>저는 생물낙지를 준비했는데요 생물낙지는 부드러운 식감이 매력이랍니다.<br>굵은소금 혹은 밀가루를 넣고 바락바락 주물러주세요.",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2018/02/03/206417afd68364008865f630b3d3cb4e1.jpg"
+                },
+                {
+                    "text": "세척 후에 머리쪽의 내장을 손으로 뜯어주세요.",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2018/02/03/c36a059daf624c7cb4236ad924165a781.jpg"
+                },
+                {
+                    "text": "끓는 물에 생물이기 때문에<br>부드럽게 먹기 위해 30초 이하로 짧게 데쳐주세요.<br>이때 머리는 따로 드실 분은 몸통을 데친 물에 좀 더 오랫동안 데쳐주세요.",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2018/02/03/62089c122a4223f7e5212d7ff61441911.jpg"
+                },
+                {
+                    "text": "채소는 냉장고 사정에 따라 준비해주세요.<br>당근은 반달썰고 양파나 양배추는 깍둑썰어주세요.<br>대파가 있다면 대파는 어슷썰어주세요.",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2018/02/03/e37ac10bc7608e9ae2d155c3068e27d91.jpg"
+                },
+                {
+                    "text": "재료 손질 후에 음식물쓰레기 처리기 스마트카라에 바로바로 음식물들을 넣어줬는데요<br>음식물 쓰레기를 가루로 줄여 부피를 확 줄여주기 때문에 간편할 뿐만 아니라 냄새도 나지 않아서 참편리해요.",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2018/02/03/eba6e6f4b96630e91f66fc1f31a713961.jpg"
+                },
+                {
+                    "text": "데친 낙지 또한 먹기좋은 크기로 썰어주세요.",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2018/02/03/9f174f7237a84c6e6df29a3d78b148ba1.jpg"
+                },
+                {
+                    "text": "백종원 양념장 레시피는 간장 3큰술, 설탕 1큰술, 맛술 1큰술, 고춧가루 2큰술, 다진마늘 1큰술이에요.<br>잘 넣고 섞어주세요.",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2018/02/03/cebede2f02dd11a27f5e7deccb18df5e1.jpg"
+                },
+                {
+                    "text": "기름을 1~2큰술 두른 팬에 만들어둔 양념장을 모두 넣고 볶아주세요",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2018/02/03/5f360a2fe982948230131472c8bd0bad1.jpg"
+                },
+                {
+                    "text": "그리고 준비한 양배추,당근,양파를 넣고 양념장과 함께 잘 버무려 볶아내주세요.",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2018/02/03/d743f472802bf1e972098e3b80fd0c681.jpg"
+                },
+                {
+                    "text": "양배추와 양파의 숨이 살짝 죽으면 낙지를 넣고 1~2분 이내로 빠르게 볶아주세요.",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2018/02/03/8d17f5b6df30e39332ce071c0cc9607e1.jpg"
+                },
+                {
+                    "text": "마무리로 참기름을 3방울 톡톡 넣어주세요. 통깨를 넣어 고소함을 살려줘도 좋답니다.",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2018/02/03/33d04a11718c441d2855a552f5f0ae8a1.jpg"
+                }
+            ],
+            "tip": "낙지는 데친 후 볶아주면 물이 생기지 않고 더 부드러워요.<br>낙지볶음은 빠르게 볶아주는게 포인트랍니다."
+        },
+        {
+            "title": "돼지고기 김치찌개",
+            "info": { 
+                "people": 4,
+                "time": 60,
+                "difficulty": 0
+            },
+            "grocery": [
+                ["메인 식재료", "돼지고기 300g", "설탕 1스푼", "간장 2.5스푼", "대파 기호에따라", "청양고추 1개", "물 8컵", "새우젓 2스푼", 
+                    "김치 1포기", "고춧가루 2.5스푼", "양파 1/2개", "다진마늘 1스푼", "들기름 적당량", "된장 1/2스푼"
+                ]
+                
+            ],
+            "category": "S",
+            "img": "https://recipe1.ezmember.co.kr/cache/recipe/2016/05/29/eca400a4fecf6066a62be0c3c6c2b3921.jpg",
+            "introduce": "진한 김치찌개 맛에 뽕 반했습니다. 정말 맛있는 김치찌기 만들어보세요^^",
+            "steps":[
+                {
+                    "text": "돼지고기는 핏물을 빼주세요",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2016/05/29/ea37be3f8424d49f3afb625adbe3b0ee1.jpg"
+                },
+                {
+                    "text": "잘익은 김치 한포기를 꺼내서 잘라주세요",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2016/05/29/634ab8644c8b22946b1f62343d3e822e1.jpg"
+                },
+                {
+                    "text": "냄비에 들기름 적당히 두르고",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2016/05/29/86eed4c1456192a29df8d8561161c46e1.jpg"
+                },
+                {
+                    "text": "김치를 넣고 볶아주세요",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2016/05/29/728d61ea13f2edfb7ead6d0c06dabae51.jpg"
+                },
+                {
+                    "text": "다진마늘 한스푼, 설탕 한스푼 넣어주세요",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2016/05/29/9a0cc0d1f3229fccfde54e32941b45c01.jpg"
+                },
+                {
+                    "text": "종이컵으로 물 8컵 부어서 센불에 끓여주세요.",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2016/05/29/69261b7c226d2a48c2db4b214a74900a1.jpg"
+                },
+                {
+                    "text": "핏물 뺀 돼지고기를 넣어주세요.",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2016/05/29/08490395e93b45f44496a2aa131c28fb1.jpg"
+                },
+                {
+                    "text": "백종원 김치찌개에는 된장이 들어가요 고기잡내 제거에 딱이라고 합니다^^",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2016/05/29/95790ecb184d744cc93fa942f958e43e1.jpg"
+                },
+                {
+                    "text": "양파 반개, 청양고추 한개를 썰어서 넣어주세요",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2016/05/29/1a498b2622c3f491e58519da5932c5831.jpg"
+                },
+                {
+                    "text": "간장 두스푼반",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2016/05/29/de4bfadf13caca26767e10fe93435f971.jpg"
+                },
+                {
+                    "text": "새우젓 두스푼",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2016/05/29/424a37a220f782cefc777c010a22f8aa1.jpg"
+                },
+                {
+                    "text": "고춧가루 두스푼반 넣어주세요",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2016/05/29/2e971b2e05059729df9af2b4e04662be1.jpg"
+                },
+                {
+                    "text": "돼지고기 김치찌개는 오래 끓여야 더 맛있습니다. 중불로 줄여서 오래 끓여주세요~!!",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2016/05/29/30d329e92aabd908f3054c8134301ec81.jpg"
+                },
+                {
+                    "text": "마지막에 파 쏭쏭 썰어서 마무리하면 돼요^^",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2016/05/29/702b8968e7950550a2533fdc8395d1411.jpg"
+                }
+            ],
+            "tip": ""
+        },
+        {
+            "title": "순두부찌개",
+            "info": { 
+                "people": 2,
+                "time": 20,
+                "difficulty": 0
+            },
+            "grocery": [
+                ["메인 식재료", "돼지고기 다짐육(앞다리살) 3스푼", "달걀 1개", "순두부 1개", "팽이버섯 조금", "대파 1스푼", "고춧가루 1.5스푼",
+                    "간장 1스푼", "참기름 1스푼", "느타리버섯 조금", "양파 1스푼", "다진 마늘 1스푼", "소금 조금", "설탕 조금", "물 200ml"
+                ]
+                
+            ],
+            "category": "S",
+            "img": "https://recipe1.ezmember.co.kr/cache/recipe/2016/01/28/0f94f9008f62e8cda6d8cefc6d50985d1.jpg",
+            "introduce": "초간단 순두부 백종원순두부만들기 백주부 순두부찌개 만드는 방법​",
+            "steps":[
+                {
+                    "text": "대파와 청양고추는 쫑쫑, 양파와 마늘은 다지고 버섯 등은 잘게 찢어놓는다.",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2016/01/28/2b6a6d1c1f5d8e7b43f6a0ddeb3c16e11.jpg"
+                },
+                {
+                    "text": "달궈진 냄비에 기름을 두르고 대파와 돼지고기 다짐육을 볶다가",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2016/01/28/687c5b753e401e1bddd4de58879fd6621.jpg"
+                },
+                {
+                    "text": "다진양파와 다진마늘을 넣고 볶아준다.",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2016/01/28/6db50e4db456cb492005130f735bda751.jpg"
+                },
+                {
+                    "text": "여기에 고추가루 1스푼 반과",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2016/01/28/4a02adf4404de1e87984884c94fa546d1.jpg"
+                },
+                {
+                    "text": "설탕과 소금을 조금 넣고,",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2016/01/28/2cf0840b26d2ae87f70974c5666af48f1.jpg"
+                },
+                {
+                    "text": "간장 한스푼,",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2016/01/28/bbf449f519aa7fda8587ec683b8b41e31.jpg"
+                },
+                {
+                    "text": "참기름 한스푼을 넣고",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2016/01/28/98af8fc82755f1964cadff605093c14c1.jpg"
+                },
+                {
+                    "text": "달달 볶아준다.",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2016/01/28/8735c3dffe6f0c99a6fb8e6954f9b3091.jpg"
+                },
+                {
+                    "text": "여기에 물 약 200ml 를 넣고 물이 끓으면 순두부를 뚝뚝 잘라 넣는다.",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2016/01/28/5201f4721b232f78f17d2164164b95cf1.jpg"
+                },
+                {
+                    "text": "자글자글 끓으면 나머지 야채를 넣고",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2016/01/28/dc83afc22a485ef524273151f2a77ccd1.jpg"
+                },
+                {
+                    "text": "마지막에 계란 하나를 톡 까서 넣고 자글자글 끓이면 백종원 순두부찌개 완성~~~",
+                    "img": "https://recipe1.ezmember.co.kr/cache/recipe/2016/01/28/80590afb3a1e68412688bb01786b4e1b1.jpg"
+                }
+            ],
+            "tip": ""
+        }
+    ], 
+
+    "myInfo": {
+        "name": "박진국",
+        "studentId": "20201561",
+        "dept": "컴퓨터소프트웨어공학과",
+        "grade": 2
+
+    }
+}

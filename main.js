@@ -1,10 +1,11 @@
 var menus = [];
+var myInfo = {};
 
 var mainContent = {
     props: ["menu"],
     template: `
     <div class="main-content card">
-        <h2>제육볶음</h2>
+        <h2>{{menu.title}}</h2>
         <div class="heading">
             <h4 class="people">{{ menu.info.people }}인분</h4>
             <span class="divider"></span>
@@ -13,7 +14,7 @@ var mainContent = {
             <h4 class="difficulty low">난이도 {{ convertDifficultyToString(menu.info.difficulty) }}</h4>
         </div>
         <div class="content">
-            <div class="fakeimg" v-bind:style="{ background: 'url('+lastImg+') center center no-repeat', backgroundSize: 'cover' }"></div>
+            <div class="fakeimg" v-bind:style="{ background: 'url(' + menu.img + ') center center no-repeat', backgroundSize: 'cover' }"></div>
             <div class="grocery">
                 <h2 class="grocery-header">[재료]</h2>
                 <div class="grocery-content">
@@ -23,7 +24,7 @@ var mainContent = {
                 </div>
             </div>
             
-        <p>{{menu.introduce}}</p>
+        <p v-html="menu.introduce"></p>
         </div>
         <a href="#" class="more">
             <div>
@@ -35,10 +36,7 @@ var mainContent = {
     methods: {
         convertDifficultyToString
     }, data: function() {
-        console.log(this.menu.imgs[this.menu.imgs.length-1]);
-        return {
-            lastImg: this.menu.imgs[this.menu.imgs.length - 1]
-        }
+        return {}
     }
     
 }
@@ -49,57 +47,38 @@ var app = new Vue({
         'main-content': mainContent
     },
     data: {
-        menus
+        fileIn: false,
+        menus,
+        myInfo
     }, methods: {
         
     }
 })
 
-createMenus();
-function createMenus() {
-    menus.push({
-        title: '제육볶음',
-        info: {
-            people: 4,
-            time: 30,
-            difficulty: 0
-        },
-        grocery: [
-            ['메인 식재료', '돼지고기 600g', '양파 1개', '청양고추 2개', '대파 1뿌리']
-            , ['양념장', '설탕 2스푼', '고추장 2스푼', '간장 2스푼', '고춧가루 2스푼', '다진마늘', '올리고당']
-        ],
-        imgs: [
-            'https://recipe1.ezmember.co.kr/cache/recipe/2016/01/03/d1282ff159a0d3771a001a8180ab49061.jpg'
-            , 'https://recipe1.ezmember.co.kr/cache/recipe/2016/01/03/950f22fb6ba694feeaca97ff9a75eacc1.jpg'
-            , 'https://recipe1.ezmember.co.kr/cache/recipe/2016/01/03/11179f6400e55626f1f2f16e58cca3df1.jpg'
-            , 'https://recipe1.ezmember.co.kr/cache/recipe/2016/01/03/12d3c8c6adff6d47d0ce2c1f30efa3061.jpg'
-            , 'https://recipe1.ezmember.co.kr/cache/recipe/2016/01/03/42ff9061bbde50633506677b2d8dc77f1.jpg'
-            , 'https://recipe1.ezmember.co.kr/cache/recipe/2016/01/03/238971bcaa092eee19a2845e3074b2481.jpg'      
-        ],
-        introduce: '백종원의 제육볶음 레시피로 간단하게 밥반찬 또는 야식, 술안주 뚝딱 만들어봤습니다^^'
-    });
-    menus.push({
-        title: '제육볶음',
-        info: {
-            people: 4,
-            time: 30,
-            difficulty: 0
-        },
-        grocery: [
-            ['메인 식재료', '돼지고기 600g', '양파 1개', '청양고추 2개', '대파 1뿌리']
-            , ['양념장', '설탕 2스푼', '고추장 2스푼', '간장 2스푼', '고춧가루 2스푼', '다진마늘', '올리고당']
-        ],
-        imgs: [
-            'https://recipe1.ezmember.co.kr/cache/recipe/2016/01/03/d1282ff159a0d3771a001a8180ab49061.jpg'
-            , 'https://recipe1.ezmember.co.kr/cache/recipe/2016/01/03/950f22fb6ba694feeaca97ff9a75eacc1.jpg'
-            , 'https://recipe1.ezmember.co.kr/cache/recipe/2016/01/03/11179f6400e55626f1f2f16e58cca3df1.jpg'
-            , 'https://recipe1.ezmember.co.kr/cache/recipe/2016/01/03/12d3c8c6adff6d47d0ce2c1f30efa3061.jpg'
-            , 'https://recipe1.ezmember.co.kr/cache/recipe/2016/01/03/42ff9061bbde50633506677b2d8dc77f1.jpg'
-            , 'https://recipe1.ezmember.co.kr/cache/recipe/2016/01/03/238971bcaa092eee19a2845e3074b2481.jpg'      
-        ],
-        introduce: '백종원의 제육볶음 레시피로 간단하게 밥반찬 또는 야식, 술안주 뚝딱 만들어봤습니다^^'
-    });
+initDatas();
+
+function initDatas() {
     
+    readTextFile("file://\/menus.json")
+}
+
+function readTextFile(file)
+{
+    var rawFile = new XMLHttpRequest();
+    rawFile.open("GET", file, false);
+    rawFile.onreadystatechange = function ()
+    {
+        if(rawFile.readyState === 4)
+        {
+            if(rawFile.status === 200 || rawFile.status == 0)
+            {
+                var allText = rawFile.responseText;
+                alert(allText);
+            }
+        }
+    }
+    console.log(rawFile);
+    rawFile.send(null);
 }
 
 function convertDifficultyToString(difficulty) {
