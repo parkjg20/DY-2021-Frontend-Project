@@ -11,7 +11,7 @@
 </head>
 <body>
     <div id="app">
-        
+        <label v-if="!fileIn">프로젝트 경로의 menus.json을 선택해주세요 <input type="file" id="jsonFile" accept=".json"></label>
         <div class="header">
             <img src="logo.png">
             <h1 class="theme-color">한식 레시피</h1>
@@ -35,22 +35,22 @@
                     <main-content  v-bind:menu="menu"></main-content>
                 </template>
             </div>
-            <div class="rightcolumn">
-            <div class="card">
-                <h2>About Me</h2>
-                <div class="fakeimg" style="height:100px;">Image</div>
-                <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-            </div>
-            <div class="card">
-                <h3>Popular Post</h3>
-                <div class="fakeimg"><p>Image</p></div>
-                <div class="fakeimg"><p>Image</p></div>
-                <div class="fakeimg"><p>Image</p></div>
-            </div>
-            <div class="card">
-                <h3>Follow Me</h3>
-                <p>Some text..</p>
-            </div>
+                <div class="rightcolumn">
+                <div class="card">
+                    <h2>Made by ...</h2>
+                    <div class="fakeimg" style="height:240px;">Image</div>
+                    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+                </div>
+                <div class="card">
+                    <h3>Popular Post</h3>
+                    <div class="fakeimg"><p>Image</p></div>
+                    <div class="fakeimg"><p>Image</p></div>
+                    <div class="fakeimg"><p>Image</p></div>
+                </div>
+                <div class="card">
+                    <h3>Follow Me</h3>
+                    <p>Some text..</p>
+                </div>
             </div>
         </div>
         
@@ -60,7 +60,6 @@
   
 
     </div>
-
     <script src="main.js"></script>
 </body>
 </html>
