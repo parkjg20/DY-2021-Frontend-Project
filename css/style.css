@@ -60,6 +60,9 @@ body {
 .leftcolumn {   
   float: left;
   width: 75%;
+  background-color: #f1f1f1;
+  transition-duration: .1s;
+
 }
 
 .leftcolumn.full{
@@ -72,6 +75,12 @@ body {
   width: 25%;
   background-color: #f1f1f1;
   padding-left: 20px;
+  
+  position: relative;
+}
+
+.rightcolumn .card{
+  margin-bottom: 20px;
 }
 
 /* Fake image */
@@ -81,6 +90,13 @@ body {
   height: 340px;
   padding: 20px;
 }
+
+.myInfo .fakeimg,
+.rightcolumn .fakeimg {
+  background: url('/picture.jpg') center no-repeat;
+  background-size: contain;
+}
+
 
 /* Add a card effect for articles */
 .card {
@@ -129,21 +145,6 @@ body {
   bottom: 0px;
   color: #827474
 }
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {   
-    width: 100%;
-    padding: 0;
-  }
-}
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .topnav a {
-    float: none;
-    width: 100%;
-  }
-}
 
 .header img{
   max-width: 82px;
@@ -166,9 +167,6 @@ body {
   border-radius: 5px;
 }
 
-.main-content:first-child hr{
-  display: none;
-}
 .card.main-content > div h4{
   display: inline-block;
 }
@@ -267,3 +265,59 @@ body {
 
 }
 
+.steps {
+  width: 100%;
+}
+
+.steps ul{
+  list-style: none;
+  
+  margin-top: 50px;
+  padding-left: 50px;
+  position: relative;
+}
+
+.steps li {
+  min-height: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 32px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.steps li .step-number {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+
+  border-radius: 25px;
+  text-align: center;
+  line-height: 50px;
+  
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: bold;
+  left: 0px;
+
+  position: absolute;
+}
+
+.steps li p{
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+ 
+.steps li img {
+  max-width: 650px;
+}
+
+h4.introduce {
+  margin-bottom: 8px;
+}
+p.introduce {
+  margin-top: 0px;
+}

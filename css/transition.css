@@ -1,0 +1,21 @@
+.right-enter-active,
+.active-enter-active {
+    transition: all .2s ease;
+}
+
+.right-leave-active,
+.active-leave-active {
+    transition: all .2s ease-in-out;
+}
+
+.right-enter, .right-leave-to {
+    transform: translateX(200px);
+}
+
+.active-enter {
+    opacity: 1;
+}
+.active-leave-to {
+    opacity: 0;
+
+}

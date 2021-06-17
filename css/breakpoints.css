@@ -1,0 +1,42 @@
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1200px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+      position: sticky;
+    }
+
+    .rightcolumn .card {
+        margin-bottom: 0px;
+    }
+}
+  
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+
+  
+@media screen and (max-width: 1500px) {
+    .steps li {
+        flex-flow: wrap;
+    }
+
+    .steps li p {
+        width: 100%; 
+    }
+
+}
+  
+@media screen and (max-width: 1095px) {
+    
+    .steps li img {
+        width: 100%
+    }
+
+}
+    

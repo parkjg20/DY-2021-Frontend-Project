@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>한식 레시피, 20201561 박진국</title>
+    <title>자기소개, 20201561 박진국</title>
     
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/breakpoints.css">
@@ -15,7 +15,7 @@
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 <body>
-    <div id="app">
+    <div id="app" class="myInfo">
         <div class="header">
             <a href="/">
                 <img src="logo.png">
@@ -30,28 +30,22 @@
             <a href="/soups.html">국물요리</a>
             <a href="/fries.html">볶음요리</a>
             <a href="https://github.com/parkjg20" style="float: right">제작자 Github</a>
-            <a href="/myInfo.html" style="float: right">자기소개</a>
+            <a href="https://github.com/parkjg20" style="float: right">자기소개</a>
         </div>
         
         <div class="row">
-            <div v-bind:class="{'leftcolumn': 1, 'full': leftfull}">
-                <template v-for="(menu, index) in menus">
-                    <main-content v-bind:menu="menu" v-bind:index="index"></main-content>
-                </template>
+            <div class="card">
+                <h2>Made by ...</h2>
+                <div class="fakeimg"></div>
+                <p>{{ myInfo.college.name }}</p>
+                <p>{{ myInfo.college.dept }} {{ myInfo.college.grade }}학년</p>
+                <p>{{ myInfo.college.studentId}}, {{ myInfo.name }}</p>
+
+                <h4 class="introduce">소감</h4>
+                <p class="introduce" v-html="myInfo.introduce">
+                    
+                </p>
             </div>
-            <transition name="right"
-                v-on:leave="_rightAfterLeave"
-                v-on:before-enter="_rightBeforeEnter">
-                <div class="rightcolumn" v-if="!full" >
-                    <div class="card">
-                        <h2>Made by ...</h2>
-                        <div class="fakeimg"></div>
-                        <p>{{ myInfo.college.name }}</p>
-                        <p>{{ myInfo.college.dept }} {{ myInfo.college.grade }}학년</p>
-                        <p>{{ myInfo.college.studentId}}, {{ myInfo.name }}</p>
-                    </div>
-                </div>
-            </transition>
         </div>
         
         <div class="footer">
@@ -67,7 +61,7 @@
                 <p>{{ myInfo.college.studentId}}, {{ myInfo.name }}</p>
                 
                 <p>{{ myInfo.contacts.email }}</p>
-                <p>{{ myInfo.contacts.phone }}</p>
+                <p>{{ myInfo.contacts.grade }}학년</p>
                         
             </div>
             <p class="copyright">Copyright J.G Park. All Rights Reserved.</p>

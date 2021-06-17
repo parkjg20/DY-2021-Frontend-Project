@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>한식 레시피, 20201561 박진국</title>
+    <title>한식 레시피, 볶음메뉴</title>
     
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/breakpoints.css">
@@ -21,7 +21,7 @@
                 <img src="logo.png">
             </a>
             <h1 class="theme-color">한식 레시피</h1>
-            <p>한식 레시피 소개 사이트</p>
+            <p>한식 레시피 소개 사이트 - 국물요리</p>
             <p>20201561 박진국</p>
         </div>
         
@@ -34,24 +34,11 @@
         </div>
         
         <div class="row">
-            <div v-bind:class="{'leftcolumn': 1, 'full': leftfull}">
-                <template v-for="(menu, index) in menus">
+            <div class="leftcolumn full">
+                <template v-for="(menu, index) in soups">
                     <main-content v-bind:menu="menu" v-bind:index="index"></main-content>
                 </template>
             </div>
-            <transition name="right"
-                v-on:leave="_rightAfterLeave"
-                v-on:before-enter="_rightBeforeEnter">
-                <div class="rightcolumn" v-if="!full" >
-                    <div class="card">
-                        <h2>Made by ...</h2>
-                        <div class="fakeimg"></div>
-                        <p>{{ myInfo.college.name }}</p>
-                        <p>{{ myInfo.college.dept }} {{ myInfo.college.grade }}학년</p>
-                        <p>{{ myInfo.college.studentId}}, {{ myInfo.name }}</p>
-                    </div>
-                </div>
-            </transition>
         </div>
         
         <div class="footer">
@@ -75,6 +62,6 @@
   
 
     </div>
-    <script src="./js/index.js"></script>
+    <script src="./js/menus.js"></script>
 </body>
 </html>

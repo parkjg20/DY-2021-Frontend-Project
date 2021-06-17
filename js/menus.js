@@ -100,6 +100,8 @@ var app = new Vue({
     },
     data: {
         menus: [],
+        fries: [],
+        soups: [],
         myInfo,
         full: false,
         leftfull: false
@@ -152,9 +154,12 @@ function getJsonData() {
             var json = JSON.parse(xhr.target.response);
             console.log(json)
             app.menus = json.data;
+            app.fries = app.menus.filter(val => val.category == 'F');
+            app.soups = app.menus.filter(val => val.category == 'S');
 
             app.college = json.myInfo.college;
             app.myInfo = json.myInfo;
+
             console.log(app.menus, app.myInfo)
         }
     })
