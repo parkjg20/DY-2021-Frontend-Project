@@ -244,9 +244,11 @@
 
     "myInfo": {
         "name": "박진국",
+        "college": "동양미래대학교",
         "studentId": "20201561",
         "dept": "컴퓨터소프트웨어공학과",
-        "grade": 2
+        "grade": 2,
+        "introduce": ""
 
     }
 }
