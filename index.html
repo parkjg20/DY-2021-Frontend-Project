@@ -20,21 +20,22 @@
         </div>
         
         <div class="topnav">
-            <a href="#">국물요리</a>
-            <a href="#">볶음요리</a>
-            <a href="#">밑반찬</a>
-            <a href="#">전통음료</a>
+            <a href="/soups.html">국물요리</a>
+            <a href="/fries.html">볶음요리</a>
             <a href="https://github.com/parkjg20" style="float: right">제작자 Github</a>
+            <a href="https://github.com/parkjg20" style="float: right">자기소개</a>
         </div>
         
         <div class="row">
-            <div v-bind:class="{'leftcolumn': 1, 'full': full}">
-                <template v-for="(menu, index) in menus">
-                    <main-content v-bind:menu="menu"></main-content>
-                </template>
-            </div>
-            <transition>
-                <div class="rightcolumn" v-if="!full">
+                <div v-bind:class="{'leftcolumn': 1, 'full': leftfull}">
+                    <template v-for="(menu, index) in menus">
+                        <main-content v-bind:menu="menu"></main-content>
+                    </template>
+                </div>
+            <transition name="right"
+                v-on:after-leave="rightAfterLeave"
+                v-on:before-enter="rightBeforeEnter">
+                <div class="rightcolumn" v-if="!full" >
                     <div class="card">
                         <h2>Made by ...</h2>
                         <div class="fakeimg" style="height:240px;">Image</div>
@@ -70,6 +71,6 @@
   
 
     </div>
-    <script src="main.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 </html>

@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+button {
+  cursor: pointer;
+}
 .theme-color{
   color: #b8352c;
 }
@@ -146,15 +149,30 @@ body {
   max-width: 82px;
   margin-bottom: -40px;
 }
-
-.card.main-content > div h4{
-  display: inline-block;
-
+.main-content {
+  position: relative;
 }
+
+.main-content .list-button{
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  height: 32px;
+  font-weight: bold;;
+  color: #FFFFFF;
+  background-color: #b8352c;
+
+  border: 2px solid #a22820;
+  border-radius: 5px;
+}
+
 .main-content:first-child hr{
   display: none;
 }
-
+.card.main-content > div h4{
+  display: inline-block;
+}
+  
 .main-content .divider{
   display: inline;
   margin-top: 1.67em;
